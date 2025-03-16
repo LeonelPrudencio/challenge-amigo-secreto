@@ -1,0 +1,11 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('assets/patron4.jpg');
+    box-sizing: border-box;
+}
+
