@@ -148,3 +148,12 @@ body {
     cursor: pointer;
     filter: brightness(1.2);
 }
+
+.footer {
+    background-color: #444444;
+    color: #d9dace;
+    font-family: "Big Shoulders", sans-serif;
+    font-size: 1rem;
+    padding: 0.7%;
+    text-align: center;
+}

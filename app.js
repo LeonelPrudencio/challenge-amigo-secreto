@@ -61,6 +61,11 @@ let posicionesUsadas = [];
 // Banderita para indicar si ya no se pueden agregar más amigos
 let banderita = false;
 
+// Poniendo el prompt donde se debe
+const inputAmigo = document.getElementById('amigo');
+inputAmigo.focus();
+
+// Función para recoger el input, verificarlo y agregarlo si se puede
 function agregarAmigo() {
     /////   /////   /////   /////   /////   /////   /////   /////   /////   /////
     // 1.- Input
