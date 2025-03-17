@@ -9,17 +9,24 @@
 body {
     background-image: url('assets/patron3.jpg');
     display: flex;
+    flex-direction: column;
     justify-content: center;
     padding: auto;
 }
 
 .contenido__ {
     display: flex;
+    justify-content: center;
+    padding: 60px;
+    gap: 35px;
+    color: aliceblue;
+}
+
+.contenido__textos {
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 40px;
-    gap: 25px;
-    color: aliceblue;
+    gap: 30px;
 }
 
 .contenido__texto__titulo {
@@ -32,6 +39,13 @@ body {
 .contenido__texto__subtitulo {
     font-family: "Big Shoulders", sans-serif;
     font-size: 2rem;
+}
+
+.resultado__texto {
+    font-family: "Big Shoulders", sans-serif;
+    font-size: 2rem;
+    color: #5edec9;
+    text-align: center;
 }
 
 .contenido__dinamico {
@@ -53,10 +67,13 @@ body {
     border-radius: 5px;
 }
 
+
 .input__texto2 {
     font-family: "Big Shoulders", sans-serif;
-    font-size: 1rem;
-    border-radius: 5px;
+    font-size: 1.5rem;
+    margin: 20px 0;
+    text-align: center;
+    list-style-type: none;
 }
 
 .contenido__botones {
@@ -108,11 +125,26 @@ body {
     background-color: #444444;
 }
 
-
-.imagen__ {
+.contenedor__imagen {
     display: flex;
     justify-content: center;
-    padding: 5%;
-    width: 500px;
-    height: 500%;
+    padding: 50px 10px 10px 20px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+.friend__icon {
+    transition: transform 0.3s ease;
+}
+
+.friend__icon.rotated {
+    transform: rotate(90deg);
+}
+
+.friend__icon:hover {
+    transform: scale(1.2) !important;
+    z-index: 99;
+    cursor: pointer;
+    filter: brightness(1.2);
 }

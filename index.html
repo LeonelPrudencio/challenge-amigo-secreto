@@ -8,27 +8,38 @@
 </head>
 <body>
     <main class="contenido__">
-        <h1 class="contenido__texto__titulo">AMIGO SECRETO</h1>
-        <h2 class="contenido__texto__subtitulo">
+        <section class="contenido__textos">
+            <h1 class="contenido__texto__titulo">AMIGO SECRETO</h1>
+            <h2 id="resultado" class="resultado__texto"></h2>
+            <h3 class="contenido__texto__subtitulo">
             Digite el nombre de sus amigos
-        </h2>
-        <section class="contenido__dinamico">
-            <div class="contenido__input">
-                <input class="input__texto1" type="text" id="amigo" placeholder="Escribe un nombre">
-            </div>
-            <div class="contenido__botones">
-                <button class="boton__texto1" onclick="agregarAmigo()">
+            </h3>
+            <section class="contenido__dinamico">
+                <div class="contenido__input">
+                    <input class="input__texto1" type="text" id="amigo" placeholder="Escribe un nombre">
+                    <ul id="listaAmigos" class="input__texto2" role="list">
+                    </ul>
+                </div>
+                <div class="contenido__botones">
+                    <button class="boton__texto1" onclick="agregarAmigo()">
                     AÑADIR
-                </button>
-                <button class="boton__texto2" onclick="sortearAmigo()">
+                    </button>
+                    <button class="boton__texto2" onclick="sortearAmigo()">
                     SORTEAR
-                </button>
-                <button class="boton__texto3" onclick="reiniciar()">
+                    </button>
+                    <button class="boton__texto3" onclick="reiniciar()">
                     REINICIAR
-                </button>
-            </div>
+                    </button>
+                </div>
+            </section>
+        </section>
+        <section id="area-imagenes" class="contenedor__imagen">
+            <img src="assets/planeta55.png" alt="imagen de alguien">
         </section>
     </main>
-    <img class="imagen__" src="assets/planeta55.png" alt="imagen de alguien">
+    <footer class="footer">
+        <p>Desarrollado por LeonelPrudencio</p>
+    </footer>
+    <script src="app.js" defer></script>
 </body>
 </html>
