@@ -129,6 +129,11 @@ function agregarAmigo() {
     
     // Enfocar nuevamente el input para seguir agregando
     inputAmigo.focus();
+
+    // Actualizar la banderita
+    if (listaAmigosGlobal.length == 24) {
+        banderita = true;
+    }
 }
 
 // Agregar evento para permitir agregar amigos presionando Enter
