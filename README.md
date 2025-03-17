@@ -151,13 +151,7 @@ Este proyecto es un juego interactivo de **Amigo Secreto** donde los usuarios pu
 
 ---
 
-## Contribuciones
+## Finalmente
 - Desarrollado por **Leonel Prudencio**.
 - Código abierto para fines educativos y de práctica.
-
-Usa "REINICIAR" para limpiar la lista y comenzar de nuevo.
-
-Contribuciones
-Desarrollado por Leonel Prudencio.
-
-Código abierto para fines educativos y de práctica.
+- PD: Fué divertido XD
