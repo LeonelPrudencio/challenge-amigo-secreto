@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+
 
 * {
     padding: 0;
@@ -5,7 +7,112 @@
 }
 
 body {
-    background-image: url('assets/patron4.jpg');
-    box-sizing: border-box;
+    background-image: url('assets/patron3.jpg');
+    display: flex;
+    justify-content: center;
+    padding: auto;
 }
 
+.contenido__ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    gap: 25px;
+    color: aliceblue;
+}
+
+.contenido__texto__titulo {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4.5rem;
+    border-style: solid;
+    text-align: center;
+}
+
+.contenido__texto__subtitulo {
+    font-family: "Big Shoulders", sans-serif;
+    font-size: 2rem;
+}
+
+.contenido__dinamico {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contenido__input {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input__texto1 {
+    font-family: "Big Shoulders", sans-serif;
+    font-size: 1.5rem;
+    padding: 5px 0px;
+    border-radius: 5px;
+}
+
+.input__texto2 {
+    font-family: "Big Shoulders", sans-serif;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.contenido__botones {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.boton__texto1 {
+    font-family: "Big Shoulders", sans-serif;
+    font-size: 1.5rem;
+    padding: 5px 0px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #d9dace;
+    border-color: #d9dace;
+}
+
+.boton__texto2 {
+    font-family: "Big Shoulders", sans-serif;
+    font-size: 1.5rem;
+    padding: 5px 0px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #da3e50;
+    border-color: #da3e50;
+}
+
+.boton__texto3 {
+    font-family: "Big Shoulders", sans-serif;
+    font-size: 1.5rem;
+    padding: 5px 0px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #5edec9;
+    border-color: #5edec9;
+}
+
+.boton__texto1:hover {
+    background-color: #444444;
+}
+
+.boton__texto2:hover {
+    background-color: #444444;
+}
+
+.boton__texto3:hover {
+    background-color: #444444;
+}
+
+
+.imagen__ {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    width: 500px;
+    height: 500%;
+}

@@ -7,30 +7,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <h1>
-            Amigo secreto
-        </h1>
-        <h2>
+    <main class="contenido__">
+        <h1 class="contenido__texto__titulo">AMIGO SECRETO</h1>
+        <h2 class="contenido__texto__subtitulo">
             Digite el nombre de sus amigos
         </h2>
-        <section>
-            <div>
-                <input type="text" id="amigo" placeholder="Escribe un nombre">
+        <section class="contenido__dinamico">
+            <div class="contenido__input">
+                <input class="input__texto1" type="text" id="amigo" placeholder="Escribe un nombre">
             </div>
-            <div>
-                <button onclick="agregarAmigo()">
-                    Añadir
+            <div class="contenido__botones">
+                <button class="boton__texto1" onclick="agregarAmigo()">
+                    AÑADIR
                 </button>
-                <button onclick="sortearAmigo()">
-                    Sortear amigo
+                <button class="boton__texto2" onclick="sortearAmigo()">
+                    SORTEAR
                 </button>
-                <button onclick="reinicia()">
-                    Reiniciar
+                <button class="boton__texto3" onclick="reiniciar()">
+                    REINICIAR
                 </button>
             </div>
         </section>
-        <img src="assets/planeta5.jpg" alt="imagen de alguien">
     </main>
+    <img class="imagen__" src="assets/planeta55.png" alt="imagen de alguien">
 </body>
 </html>
