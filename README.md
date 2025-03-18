@@ -1,5 +1,8 @@
 # Juego de Amigo Secreto
 
+URL:
+![image](https://challenge-amigo-secreto-git-main-leonelprudencios-projects.vercel.app/)
+
 Este proyecto es un juego interactivo de **Amigo Secreto** donde los usuarios pueden ingresar nombres de amigos, sortear un amigo secreto y visualizar imágenes de "marcianos" alrededor de un planeta por cada amigo agregado. A continuación, se detallan las características principales del proyecto.
 
 ![image](https://github.com/user-attachments/assets/2716fdab-8fa4-4b79-b707-a50806c98747)
