@@ -102,10 +102,3 @@ Leonel Antonio Prudencio
 ---
 
 *Nota: Fué divertido XD*
-
----
-
-## Finalmente
-- Desarrollado por **Leonel Prudencio**.
-- Código abierto para fines educativos y de práctica.
-- PD: Fué divertido XD
